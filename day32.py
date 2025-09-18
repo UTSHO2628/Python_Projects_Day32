@@ -8,7 +8,7 @@ WIDTH, HEIGHT = 800, 300
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Dino Game")
 
-# Colors
+ # Colors
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
