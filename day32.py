@@ -3,7 +3,7 @@ import random
 
 pygame.init()
 
-  # Screen settings
+# Screen settings
 WIDTH, HEIGHT = 800, 300
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Dino Game")
