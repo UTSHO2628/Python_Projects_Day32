@@ -1,7 +1,7 @@
 import pygame
 import random
 
-
+pygame.init()
 
 # Screen settings
 WIDTH, HEIGHT = 800, 300
