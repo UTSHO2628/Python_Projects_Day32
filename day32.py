@@ -27,7 +27,7 @@ cactus_x = WIDTH
 cactus_speed = 5
 score = 0
 
-# Main loop
+
 running = True
 clock = pygame.time.Clock()
 while running:
