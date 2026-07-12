@@ -10,7 +10,7 @@ pygame.display.set_caption("Dino Game")
 
  # Colors
 WHITE = (255, 255, 255)
-BLACK = (0, 0, 0)
+
 
 dino_img = pygame.image.load("dino.png")
 dino_img = pygame.transform.scale(dino_img, (50, 50))
