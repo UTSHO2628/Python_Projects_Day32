@@ -17,7 +17,6 @@ dino_img = pygame.transform.scale(dino_img, (50, 50))
 cactus_img = pygame.image.load("cactus.png")
 cactus_img = pygame.transform.scale(cactus_img, (30, 50))
 
-dino_x, dino_y = 50, HEIGHT - 100
 dino_vel_y = 0
 ground = HEIGHT - 50
 gravity = 0.6
