@@ -41,8 +41,7 @@ while running:
             if event.key == pygame.K_SPACE and not is_jumping:
                 dino_vel_y = jump_power
                 is_jumping = True
-    
-    # Apply gravity
+  
     dino_vel_y += gravity
     dino_y += dino_vel_y
     
