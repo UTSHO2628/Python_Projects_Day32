@@ -42,7 +42,6 @@ while running:
     dino_vel_y += gravity
     dino_y += dino_vel_y
     
-    # Prevent falling through the ground
     if dino_y >= ground - 50:
         dino_y = ground - 50
         is_jumping = False
