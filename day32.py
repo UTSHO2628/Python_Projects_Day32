@@ -30,7 +30,6 @@ clock = pygame.time.Clock()
 while running:
     screen.fill(WHITE)
     
-    # Event handling
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
