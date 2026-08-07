@@ -60,7 +60,6 @@ while running:
     screen.blit(dino_img, (dino_x, dino_y))
     screen.blit(cactus_img, (cactus_x, ground - 50))
     
-    # Display score
     font = pygame.font.Font(None, 36)
     text = font.render(f"Score: {score}", True, BLACK)
     screen.blit(text, (10, 10))
