@@ -55,7 +55,7 @@ while running:
     cactus_x -= cactus_speed
     if cactus_x < -30:
         cactus_x = WIDTH
-        score += 1  # Increase score when a cactus passes
+        score += 1  
     
     # Collision detection
     if dino_x < cactus_x + 30 and dino_x + 50 > cactus_x and dino_y + 50 > ground - 50:
