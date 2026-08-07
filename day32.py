@@ -54,8 +54,7 @@ while running:
     if dino_x < cactus_x + 30 and dino_x + 50 > cactus_x and dino_y + 50 > ground - 50:
         print("Game Over! Score:", score)
         running = False
-    
-    # Draw objects
+
     screen.blit(dino_img, (dino_x, dino_y))
     screen.blit(cactus_img, (cactus_x, ground - 50))
     
