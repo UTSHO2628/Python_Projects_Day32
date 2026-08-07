@@ -45,7 +45,6 @@ while running:
         dino_y = ground - 50
         is_jumping = False
     
-     # Move cactus
     cactus_x -= cactus_speed
     if cactus_x < -30:
         cactus_x = WIDTH
